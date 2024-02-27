@@ -14,4 +14,3 @@ function header() {
 
 export { header };
 
-console.log(window.location.pathname)
