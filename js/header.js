@@ -1,6 +1,6 @@
 function header() {
     const navDOM = document.querySelector('.main-nav');
-    const href = location.hostname === 'localhost' ? '/' : window.location.pathname ? './' : '../';
+    const href = location.hostname === 'localhost' ? '/' : window.location.pathname ? '_48-GRUPE-DOM-EVENTS_./' : '_48-GRUPE-DOM-EVENTS_../';
     // const href = window.location.pathname ? '../' : './';
     const HTML = `
         <a href="${href}">Home</a>
@@ -14,6 +14,3 @@ function header() {
 
 export { header };
 
-var path = window.location.pathname;
-var page = path.split("/").pop();
-console.log( page );
