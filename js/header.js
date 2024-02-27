@@ -1,7 +1,7 @@
 function header() {
     const navDOM = document.querySelector('.main-nav');
-    // const href = location.hostname === 'localhost' ? '/' : window.location.pathname || '/virykle/'? './' : '../';
-    const href = window.location.pathname ? '../' : './';
+    const href = location.hostname === 'localhost' ? '/' : window.location.pathname ? './' : '../';
+    // const href = window.location.pathname ? '../' : './';
     const HTML = `
         <a href="${href}">Home</a>
         <a href="${href}single-button-click">Single button click</a>
