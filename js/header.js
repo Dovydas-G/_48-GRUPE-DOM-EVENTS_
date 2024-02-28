@@ -1,7 +1,7 @@
 function header() {
     const navDOM = document.querySelector('.main-nav');
-    const localhost = 'http://localhost:4815';
-    const github = 'https://dovydas-g.github.io/_48-GRUPE-DOM-EVENTS_/'
+    const localhost = 'http://localhost:4815/';
+    const github = 'https://dovydas-g.github.io/_48-GRUPE-DOM-EVENTS_/';
     const href = location.hostname === 'localhost' ? localhost : github;
     
 
